@@ -1,0 +1,410 @@
+
+
+.login,.profile_nav{
+    margin-left: 1300px;
+}
+.reg,.logout{
+    margin-left: 20px;
+}
+
+.text{
+    margin-top: 9rem;
+}
+.card-text{
+    font-size: large;
+}
+
+.bg_color_all{
+  background-color: #ffffff;
+}
+.card-title-index{
+    font-size: 37px;
+    margin: 0px !important;
+    text-align: left!important;
+}
+
+
+/* css for profile */
+/* Import Font Dancing Script */
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: Arial;
+    overflow: hidden;
+}
+
+/* NavbarTop */
+.navbar-top {
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0px 4px 8px 0px grey;
+    height: 70px;
+}
+
+.title {
+    font-family: 'Dancing Script', cursive;
+    padding-top: 15px;
+    position: absolute;
+    left: 45%;
+}
+
+.navbar-top ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 18px 50px 0 40px;
+}
+
+.navbar-top ul li {
+    float: left;
+}
+
+.navbar-top ul li a {
+    color: #333;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.icon-count {
+    background-color: #ff0000;
+    color: #fff;
+    float: right;
+    font-size: 11px;
+    left: -25px;
+    padding: 2px;
+    position: relative;
+}
+
+/* End */
+
+/* Main */
+.main {
+    margin-top: 8%!important;
+    margin-left: 29%;
+    font-size: 28px;
+    padding: 0 10px;
+    width: 50%;
+    margin:auto;
+}
+
+.main h2 {
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.main .card {
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 1px 1px 8px 0 grey;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 20px 0 20px 50px;
+}
+
+.main .card table {
+    border: none;
+    font-size: 16px;
+    height: 200px;
+    width: 60%;
+    margin-left:auto;
+}
+
+.edit {
+    position: absolute;
+    color: #e7e7e8;
+    right: 14%;
+}
+
+
+
+/* End */
+
+
+
+
+/* for complain */
+body {
+    font-family: 'lato', sans-serif;
+    overflow-y: scroll;
+  }
+  .container_view {
+    max-width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  h2 {
+    font-size: 26px;
+    margin: 20px 0;
+    text-align: center;
+    small {
+      font-size: 0.5em;
+    }
+  }
+  
+  .responsive-table {
+    li {
+      border-radius: 3px;
+      padding: 14px 24px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 14px;
+    }
+    .table-header {
+      background-color: #EAEAEA;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+    .table-row {
+      background-color: #ffffff;
+      box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+    }
+    .col-1 {
+      flex-basis: 10%;
+    }
+    .col-2 {
+      flex-basis: 40%;
+    }
+    .col-3 {
+      flex-basis: 25%;
+    }
+    .col-4 {
+      flex-basis: 25%;
+    }
+    
+    @media all and (max-width: 767px) {
+      .table-header {
+        display: none;
+      }
+      .table-row{
+        
+      }
+      li {
+        display: block;
+      }
+      .col {
+        
+        flex-basis: 100%;
+        
+      }
+      .col {
+        display: flex;
+        padding: 10px 0;
+        &:before {
+          color: #6C7A89;
+          padding-right: 10px;
+          content: attr(data-label);
+          flex-basis: 50%;
+          text-align: right;
+        }
+      }
+    }
+  }
+
+  /* index.css */
+
+/* Flexbox container */
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Flex items */
+.image_profile {
+    margin:auto;
+   
+}
+
+.img_p{
+    border-radius: 15%;
+}
+
+/* Optional: Styling for the table */
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px 10px;
+}
+
+
+
+
+
+/* 
+for cards in index */
+/* .card_container{
+  margin-top: 20%;
+  height: 100vh;
+}
+
+.cards_fun{
+  height:100vh;
+  margin-top: 15%;
+}
+
+.card_profile{
+  background-color: #e5eef5;
+  margin: auto;
+  width:50%;
+  height: 30vh;
+ 
+}
+
+.card_profile:hover{
+  
+}
+.profile_place{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.custom_space {
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+
+
+.prof{
+  border: 1px solid rgb(175, 175, 175);
+  border-radius: 10px;
+}
+
+.prof:hover{
+  box-shadow: 0 8px 16px 0 rgba(255, 254, 254, 0.2);
+}
+
+.complain{
+  border: 1px solid rgb(175, 175, 175);
+  border-radius: 10px;
+}
+.complain:hover{
+  box-shadow: 0 8px 16px 0 rgba(255, 254, 254, 0.2);
+} */
+
+
+
+
+
+
+
+
+
+/* card */
+.card_container{
+  height: 100vh;
+  margin-top: 13%;
+}
+
+
+.card {
+  width: 350px;
+  height: 235px;
+  position: relative;
+  padding: 25px;
+  background:  #FFFFFF;
+  border-radius: 23px;
+  transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 155px 62px rgba(206, 122, 122, 0.01), 0px 87px 52px rgba(0, 0, 0, 0.05), 0px 39px 39px rgba(0, 0, 0, 0.09), 0px 10px 21px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary{
+  background-color: #3f599d;
+  border: none;
+}
+
+.container {
+  /* height: 277px;
+  position: absolute;
+  right: 21px;
+  top: -20px;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+  transform: scale(0.7);
+}
+
+.prof_flex{
+  justify-content: center;
+  display: flex;
+  align-content: center;
+}
+
+.text_prof{
+  font-size: 31px;
+}
+
+.two{
+    justify-content: center;
+    align-items: center;
+}
+
+.hello_prof{
+  margin-left: auto;
+}
+
+.grievance-details {
+  width: 100%;
+  background-color: #3f599d;
+  padding-left: 20px;
+  margin-top: 20px;
+  color:white;
+  text-align: center;
+  margin-top: 13%;
+}
+
+.mukta-regular {
+  font-family: "Mukta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@keyframes sunshines {
+  0% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+
+  100% {
+    transform: scale(1.4);
+    opacity: 0;
+  }
+}
+
+@keyframes clouds {
+  0% {
+    transform: translateX(15px);
+  }
+
+  50% {
+    transform: translateX(0px);
+  }
+
+  100% {
+    transform: translateX(15px);
+  }
+}
+
+
+
+
+
